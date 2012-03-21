@@ -1,10 +1,10 @@
 Atkinstache
 --
 
-Atkinstache is a [TileStache]() provider for generating stylized black and white
+Atkinstache is a [TileStache](http://www.tilestache.org/) provider for generating stylized black and white
 halftone, or "dithered", map tiles using another tileset as its input. The
-halftone effect is accomplished using Bill Atkinson's original dithering
-algorithm created for the first Apple Macintosh computers.
+halftone effect is accomplished using Bill Atkinson's original [dithering
+algorithm](http://mike.teczno.com/notes/atkinson.html) created for the first Apple Macintosh computers.
 
 Typically you would use satellite imagery but there's nothing to stop you from
 using a different source.
@@ -40,16 +40,14 @@ for tile sets that send a unique tile for those areas that lack coverage.
 Other stuff
 --
 
-**this part does not work yet**
-
 By default Atkinstache will use a pure Python implementation of the dithering
-algorithm to filter images. If the C-based (atk)[] Python implimentation is
+algorithm to filter images. If the C-based (atk)[https://github.com/migurski/atkinson] Python implimentation is
 installed the package will use that instead.
 
 See also:
 
-* [TileStache]()
+* [TileStache](http://www.tilestache.org/)
 
-* [atk]()
+* [atk](https://github.com/migurski/atkinson)
 
-* [](http://mike.teczno.com/notes/atkinson.html)
+* ["atkinson dithering"](http://mike.teczno.com/notes/atkinson.html)

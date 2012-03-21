@@ -6,11 +6,11 @@ version = open('VERSION', 'r').read().strip()
 
 setup(name='atkinstache',
       version=version,
-      description='',
+      description='dot dot dot dot dot dot (and so on)',
       author='Aaron Straup Cope',
       author_email='straup@gmail.com',
       url='https://github.com/straup/tilestache-atkinstache',
-      requires=['TileStache','PIL'],
+      requires=['TileStache','ModestMaps', 'PIL'],
       packages=['atkinstache',
                 'atkinstache.dithering'],
       scripts=[],
