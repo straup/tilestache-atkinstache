@@ -41,7 +41,7 @@ Other stuff
 --
 
 By default Atkinstache will use a pure Python implementation of the dithering
-algorithm to filter images. If the C-based (atk)[https://github.com/migurski/atkinson] Python implimentation is
+algorithm to filter images. If the C-based [atk](https://github.com/migurski/atkinson) Python implimentation is
 installed the package will use that instead.
 
 See also:
