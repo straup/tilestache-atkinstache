@@ -1,0 +1,29 @@
+{
+
+    "cache": {
+        "path": "/var/tiles", 
+        "name": "Test"
+    },
+
+    "layers": {
+
+        "microsoft_aerial": {
+            "provider": {
+                "name": "proxy", 
+                "provider": "MICROSOFT_AERIAL"
+            }
+        },
+
+	"dithering": {
+	    "provider": {
+		"class": "Atkinstache.dithering.Provider",
+		"kwargs": {
+		     "source_layer": "microsoft_aerial",
+	             "skip_on_checksum": "1",
+	             "checksum": "afeeb6c8b0a5edb1b9ef94d1d652f41b"
+	        }
+	    }
+	}
+
+    }
+}
